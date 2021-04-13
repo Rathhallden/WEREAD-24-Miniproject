@@ -1,0 +1,469 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Battambang', cursive;
+    /* font-family: 'Siemreap', cursive; */
+    /* font-family: 'Rubik', sans-serif; */
+    font-size: 16px;
+}
+.row {
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+}
+.poster1 {
+    background-image: url("https://i1.wp.com/www.thehrdaily.com/wp-content/uploads/2021/01/C7DDE2F7-ED46-4F18-B97B-3EEBDB3BF3A6-scaled.jpeg?resize=765%2C500&ssl=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    height: 405px;
+    color: white;
+    margin: 5px -17px;
+    margin-right: -30px;
+    /* margin: 0 -60px 5px 0; */
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.poster2 {
+    background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/Football(46)/Football(51)/6072606f13f4c_1618108500_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+    color: white;
+    margin: 5px -20px;
+    margin-right: -30px;
+    /* margin: 0 -36px 5px -5px; */
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.poster3 {
+    background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/SOVATH/Mar-02-2021/6072625e9cfb1_1618108980_small.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+    color: white;
+    margin: 5px -20px;
+    /* margin: 0 -36px 5px -5px; */
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+    margin-right: -30px;
+}
+
+.poster4 {
+    background-image: url("https://i1.wp.com/www.thehrdaily.com/wp-content/uploads/2020/08/117377583_1273133829705969_7509502271775163840_o.jpg?resize=765%2C500&ssl=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+    color: white;
+    margin: 5px -20px;
+    /* margin: 0 0px 5px -30px; */
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.poster5 {
+    background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Sport-News/International-Sports/soccer/Soccer54/Soccer144/Soccer148/Roth_1/Roth_12T/Roth_1D/Roth_1I/606e89b7f0eed_1617856920_small.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+    color: white;
+    margin: 5px -20px;
+    /* margin: 0 0 5px -30px; */
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+div#category1{
+  width:49px;
+    height: 29px;
+    text-align: center;
+    position: absolute;
+    top:10px;
+    z-index: 1;
+    background-color:rgb(76, 92, 230);
+    padding:5px;
+    color:white;
+    font-size: 14px;
+}
+div#category1::after{
+content: '';
+border-top: 29.3px solid rgb(76, 92, 230);
+border-right: 20px solid transparent;
+position:relative;
+left: 15px;
+top:26.5px;
+}
+div#category2{
+    width:79px;
+    height: 29px;
+    text-align: center;
+    position: absolute;
+    top:10px;
+    z-index: 1;
+    background-color:#38C378;
+    padding:5px;
+    color:white;
+    font-size: 14px;
+}
+div#category2::after{
+content: '';
+border-top: 29.3px solid #38C378;
+border-right: 20px solid transparent;
+position:relative;
+left: 6px;
+top:26.5px;
+}
+div#category3{
+    width:70px;
+    height: 29px;
+    text-align: center;
+    position: absolute;
+    top:10px;
+    z-index: 1;
+    background-color:#F9A62B;
+    padding:5px;
+    color:white;
+    font-size: 14px;
+}
+div#category3::after{
+content: '';
+border-top: 29.3px solid #F9A62B;
+border-right: 20px solid transparent;
+position:relative;
+left: 7.4px;
+top:26.5px;
+}
+div#category4{
+    width:62.5px;
+    height: 29px;
+    text-align: center;
+    position: absolute;
+    top:10px;
+    z-index: 1;
+    background-color:#F2272F;
+    padding:5px;
+    color:white;
+    font-size: 14px;
+}
+div#category4::after{
+content: '';
+border-top: 29.3px solid #F2272F;
+border-right: 20px solid transparent;
+position:relative;
+left: 7.4px;
+top:26.5px;
+}
+
+div#category5{
+    width:70.5px;
+    height: 29px;
+    text-align: center;
+    position: absolute;
+    top:10px;
+    z-index: 1;
+    background-color:#FA5480;
+    padding:5px;
+    color:white;
+    font-size: 14px;
+}
+div#category5::after{
+content: '';
+border-top: 29.3px solid #FA5480;
+border-right: 20px solid transparent;
+position:relative;
+left: 7.4px;
+top:26.5px;
+}
+.sidebar1 {
+    background-image: url("https://ads.sabay.com/images/b0e67ae34c94d47f6bda6ab117c67ffa.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.popular{
+    display: flex;
+    flex-direction: row;
+    margin-top:5px;
+}
+.popular a{
+    color:#b6a790
+}
+.popular a:hover{
+    color:#bb8e4c
+}
+.sidebar6 {
+    background-image: url("https://ads.sabay.com/images/6317064a3d7be0c98a6bb6858b485afd.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.sidebar3 {
+    background-image: url("https://ads.sabay.com/images/8eb91f9287f947e772a433c18fdd128b.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 235px;
+}
+.sidebar4 {
+    background-image: url("https://ads.sabay.com/images/cec0bfbc0f0fccb6bb8c71129523052b.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.sidebar2 {
+    background-image: url("https://ads.sabay.com/images/0ef99e2b21d809bfefcc8e4072e19a66.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+.sidebar5 {
+    background-image: url("https://ads.sabay.com/images/c8450a9bca3ebdbf41476435b9f2c241.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 245px;
+    margin-bottom: 10px;
+}
+
+
+.poster5 p {
+    position: relative;
+    text-align: left;
+    top: 15px;
+    padding: 10px;
+    width: 100vw;
+    font-size: 15px;
+    background: rgba(34, 33, 33, 0.6);
+}
+
+.poster4 p {
+    position: relative;
+    top: 15px;
+    padding: 10px;
+    width: 100vw;
+    font-size: 15px;
+    background: rgba(34, 33, 33, 0.6);
+}
+
+.poster3 p {
+    width: 100vw;
+    position: relative;
+    top: 15px;
+    padding: 10px;
+    font-size: 15px;
+    background: rgba(34, 33, 33, 0.6);
+}
+
+.poster2 p {
+    width: 100vw;
+    position: relative;
+    top: 15px;
+    padding: 10px;
+    font-size: 15px;
+    background: rgba(34, 33, 33, 0.6);
+}
+
+.poster1 p {
+    width: 100vw;
+    position: relative;
+    top: 15px;
+    padding: 10px;
+    font-size: 15px;
+    background: rgba(34, 33, 33, 0.6);
+}
+span.groupfont{
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+}
+span.fontcontent{
+  font-family: 'Rubik', sans-serif;
+
+}
+span.fontheader{
+  font-weight: bold;
+  color:black;
+
+}
+span.contentsize{
+  font-size: 14px;
+
+}
+.poster:hover {
+    transform: scale(0.97);
+}
+img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+img:hover{
+    transform: scale(0.97);
+}
+
+.blocktitle {
+    border-bottom: 2px salmon;
+    padding-bottom: 3px;
+    color: salmon;
+}
+
+.blocktitle>span {
+    background: var(--main-accent);
+    padding: 30px;
+}
+
+h5#title1{
+    width:105px;
+    height: 35px;
+    text-align: center;
+    position: sticky;
+    top:67px;
+    z-index: 1;
+    background-color:#38C378;
+    padding:10px;
+    color:white;
+    font-size:17px;
+    
+}
+h5#title2{
+    width:70px;
+    height: 35px;
+    text-align: center;
+    position: sticky;
+    top:67px;
+    z-index: 1;
+    background-color: rgb(76, 92, 230);
+    padding:10px;
+    color:white;
+    font-size: 17px;
+}
+/* #border{
+  border-bottom: 3px solid rgb(76, 92, 230);
+  position: relative;
+  bottom:8px;
+} */
+h5#title3{
+    width:95px;
+    height: 35px;
+    position: sticky;
+    text-align: center;
+    top:67px;
+    z-index: 1;
+    background-color: #F9A62B;
+    padding:10px;
+    color:white;
+    font-size: 17px;
+}
+h5#title4{
+    width:85px;
+    height: 35px;
+    position: sticky;
+    text-align: center;
+    top:67px;
+    z-index: 1;
+    background-color: #F2272F;
+    padding:10px;
+    color:white;
+    font-size: 17px;
+}
+h5#title5{
+    width:90px;
+    height: 35px;
+    text-align: center;
+    position: sticky;
+    top:67px;
+    z-index: 1;
+    background-color: #FA5480;;
+    padding:10px;
+    color:white;
+    font-size: 17px;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+a:hover{
+  color:black;
+}
+.icontitle1{
+    padding:8px;
+}
+ nav#pagination{
+    background: #06A8C1;
+    color:blueviolet;
+    
+ }
+ nav#pagination{
+     background-color: none;
+
+ }
+ footer{
+   margin-top:20px;
+   background-color: #137585;
+   color: white;
+ }
+
+ .breaking-news-section{
+     display:flex;
+     padding-top: 10px;
+ }
+ #btext{
+    font-family: 'Rubik', sans-serif;
+     width:200px;
+     font-size: 18px;
+     font-weight: bold;
+     text-align: left;
+     padding:7px;
+ }
+ .breaking-news{
+     /* padding-top: 6px; */
+     display: inline-block;
+     text-align: center;
+     padding:10px;
+     font-size: 15px;
+     color:rgb(163, 126, 108)
+ }
+ .breaking-news:hover{
+   color:red;
+   cursor: pointer;
+}
+ .bntime{
+     display: inline-block;
+     font-family: 'Rubik', sans-serif;
+     font-size: 15px;
+ }
+ div.sbar{
+     display: flex;
+     flex-direction: row;
+ }
+
+ .sbar #img{
+     background-image: url("/image/Relax.jpg");
+     width:70px;
+     height: 40px;
+     background-size: cover;
+     margin:4px;
+ }
